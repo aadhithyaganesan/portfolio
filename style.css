@@ -30,7 +30,6 @@
 	/*background-color: rgba(220, 220, 220, 0.9);*/
 	z-index: 2;
 	cursor: pointer;
-	display:none;
   }
   
   #text{
