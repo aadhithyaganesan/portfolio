@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="screen and (min-width: 1000px)" type="text/css" href="../style.css">
+  <link rel="stylesheet" media="screen and (max-width: 1000px)" type="text/css" href="../style-alt.css">
+
+  <title>Aadhithya Ganesan | Portfolio</title>
+    <link rel="icon" href="../icon.png" type="image/x-icon">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+<!-- We use the full link to the CSS file in the rest of the tags -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=VT323&display=swap"/>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+media="print" onload="this.media='all'" />
+
+<noscript>
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=VT323&display=swap" />
+</noscript>
+
+  <style>
+    body{
+      background-color: #007b7b;
+      cursor: url(../images/cursor.svg), auto;
+    }
+  </style>
+  <script src="../scripts.js"></script>
+</head>
+<body>
+
+  <!--PORTFOLIO WINDOWS-->
+  <div id="ux" class="collapse">
+    <div class="header">
+      <div class="text-div">UX Design</div>
+        <button class="close-button" onclick="closeUX()">x</button>
+    </div>
+    <div class="scrollable-div">
+      <div class="video-list">
+        <div class="video-item">
+          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRTPT8OZfg39uo-chIOnsHX_GRUqTp24qr1ksl1AIERbj22s4x82uBt2loUA_ZfSF5imZWxLjU8OhVC/embed?start=false&loop=true&delayms=60000" frameborder="0" width="940" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+        <div class="video-item">
+          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQKhGVRGBHpacUmDV5QxqptzHCyqUgzN6GR0_9Sx9LR2VFtio6A7Dm6tH4qVCavHvFCjvSXuLxet06f/embed?start=false&loop=true&delayms=60000" frameborder="0" width="940" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+        <div class="video-item">
+          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS-_AM2NEjkgV4ZJSfvW3DFajY08BdNXP92vCGT5f43mQU_h52mQiullcZ-QYndy0O3fmRbW3ZngY0J/embed?start=false&loop=true&delayms=60000" frameborder="0" width="940" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+        <div class="video-item">
+          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRUzZ9B2Zqg4cJmMrQQ15gk-YPQE6tOU-9QI94NjU_qcWRZkGaZesPdPMfsGgQNpgsZEZZ-jS0wFMWs/embed?start=false&loop=true&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+      <!-- Add more video items as needed -->
+      </div>
+    </div>
+  </div>
+
+  <div id="edit" class="collapse" style="display:none">
+    <div class="header">
+      <div class="text-div">Video Editing</div>
+        <button class="close-button" onclick="closeEdit()">x</button>
+    </div>
+    <div class="scrollable-div">
+      <div class="video-list">
+        <div class="video-item">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/PXDJHoVkUo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>  
+        <div class="video-item">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/oveh_XCToiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="video-item">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Ir8oYFPe1A0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>    
+        <div class="video-item">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Ez-Kzka1fZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>      
+      <!-- Add more video items as needed -->
+      </div>
+    </div>
+  </div>
+
+  <!--<div id="photo" class="collapse" style="display:none">
+    <div class="header">
+      <div class="text-div">Photography</div>
+        <button class="close-button" onclick="closePhoto()">x</button>
+    </div>
+    <div class="scrollable-div">
+      <div id="photo-text">
+        <span>I developed an interest for film photography during my freshman year at college. <br>These are some of my favorite pictures taken across the years, with a Yashica Electro 35 GS.</span>
+      </div>
+        <div class="photo-list">
+          <div class="photo-item">
+            <a data-flickr-embed="true" href="https://www.flickr.com/photos/198545157@N07/albums/72177720309079672" title="Film Photography"><img src="https://live.staticflickr.com/65535/52977295120_72eba7caa7_c.jpg" width="800" height="600" alt="Film Photography"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+          </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div id="about" class="collapse" style="display:none">
+    <div class="header">
+      <div class="text-div">About Me</div>
+        <button class="close-button" onclick="closeAbout()">x</button>
+    </div>
+    
+    <!--<div class="scrollable-div">
+      <div class="about-list">
+        <img src="../images/profile.jpg">
+      <div id="about-text">
+      Hey there! I'm Aadhithya Ganesan, a UX Designer and multidisciplinary artist based in Toronto.<br>
+      I grew up with an interest in the arts, exploring my creativity by drawing, painting, sculpting, writing, making stop-motion films and editing videos.
+      During my undergraduate Computer Science program at Toronto Metropolitan University, I discovered UX Design as the next step in my artistic pursuit, with the ultimate goal of making systems user friendly.<br><br>
+      I had the opportunity to kickoff my career at the Ontario Ministry of Transportation, where I familiarized myself to the SDLC (System Development Lifecycle) and trained in key facets of UX Design such as design thinking, user research, interviews, synthesis, user-centric design, prototyping, user testing, and design sprints.
+      As a UX Designer, I am driven to create experiences that are intuitive, immersive and impactful to the user.<br><br>
+      In my free time, I'm either watching movies or talking about them. I also love chilling with my cat, Lotus.
+      </div>
+ 
+      </div>
+    </div>
+  </div>-->
+
+  <div class="scrollable-div">
+    <div class="photo-wrapper">
+      <img src="../images/profile.jpg" alt="Profile photo">
+
+      <div class="text-wrapper">
+      <h2>
+      Hey there! I'm Aadhithya Ganesan, a UX Designer and multidisciplinary artist based in Toronto.<br>
+      </h2>
+      <p>I grew up with an interest in the arts, exploring my ideas by drawing, painting, sculpting, writing, making stop-motion films and editing videos.
+      During my undergraduate Computer Science program at Toronto Metropolitan University, I discovered UX Design as the next step in my artistic pursuit, with the ultimate goal of making systems user friendly.<br><br>
+      I had the opportunity to kickoff my career at the Ontario Ministry of Transportation, where I familiarized myself to the SDLC (System Development Lifecycle) and trained in key facets of UX Design such as design thinking, user research, interviews, synthesis, user-centric design, prototyping, user testing, and design sprints.
+      As a UX Designer, I am driven to create experiences that are intuitive, immersive and impactful to the user.<br><br>
+      In my free time, I'm either watching movies or talking about them. I also love chilling with my cat, Lotus.
+      </p>
+    </div>
+
+    </div>
+  </div>
+  </div>
+
+
+<!--DESKTOP ICONS-->
+  <div class="image-container">
+    <div>
+      <img src="../images/ux.png" alt="UX Design" onclick="openUX()">
+      <span>UX Design</span>
+    </div>
+    <div>
+      <img src="../images/edit.png" alt="Edit Image" onclick="openEdit()">
+      <span>Video Editing</span>
+    </div>
+    <div>
+        <img src="../images/film.png" alt="Film Image" onclick="window.open('https://flic.kr/s/aHBqjAHSeW')">
+      <span>Photography</span>
+    </div>
+    <div>
+      <img src="../images/about.png" alt="About Image" onclick="openAbout()">
+      <span>About Me</span>
+    </div>
+    <div><a href="../index.html">
+      <img src="../images/back.png" alt="About Image" style="margin:auto; max-width:30%; padding-top: 8%;">
+    </a>
+      <span>Go Back</span>
+    </div>
+  </div>
+</body>
+</html>
