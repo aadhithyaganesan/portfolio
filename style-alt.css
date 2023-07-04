@@ -82,15 +82,8 @@
 
 .lotus{
 	position:absolute;
-	max-width:6%;
+	max-width:5.5%;
 	transform: translate(20%, 180%);
-}
-
-
-.laptop{
-	position:absolute;
-	max-width:6.1%;
-	transform: translate(-310%, 40%);
 }
 
 .poster{
@@ -99,6 +92,12 @@
 	transform: translate(20%, -100%);
 }
 
+
+.laptop{
+	position:absolute;
+	max-width:6.5%;
+	transform: translate(-300%, 35%);
+}
 
 /*PORTFOLIO CSS*/
 
