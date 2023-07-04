@@ -92,6 +92,12 @@
 	transform: translate(-310%, 40%);
 }
 
+.poster{
+	position:absolute;
+	max-width:8%;
+	transform: translate(20%, -100%);
+}
+
 
 /*PORTFOLIO CSS*/
 
