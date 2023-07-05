@@ -68,10 +68,10 @@
 	z-index:0;
   }
 
-  .room{
+    .room{
 	position:absolute;
 	pointer-events: none;
-	max-width:45%;
+	max-width:90%;
 	height:auto;
 	top: 50%;
     left: 50%;
@@ -79,22 +79,22 @@
 
   }
 
-.lotus{
+  .lotus{
 	position:absolute;
-	max-width:8%;
+	max-width:9.16%;
 	transform: translate(20%, 180%);
 }
 
 .poster{
 	position:absolute;
-	max-width:8%;
+	max-width:9%;
 	transform: translate(20%, -100%);
 }
 
 
 .laptop{
 	position:absolute;
-	max-width:6.5%;
+	max-width:7.25%;
 	transform: translate(-300%, 35%);
 }
 
