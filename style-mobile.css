@@ -81,20 +81,20 @@
 
   .lotus{
 	position:absolute;
-	max-width:9.16%;
+	max-width:13.3%;
 	transform: translate(20%, 180%);
 }
 
 .poster{
 	position:absolute;
-	max-width:9%;
+	max-width:14.4%;
 	transform: translate(20%, -100%);
 }
 
 
 .laptop{
 	position:absolute;
-	max-width:7.25%;
+	max-width:11.6%;
 	transform: translate(-300%, 35%);
 }
 
