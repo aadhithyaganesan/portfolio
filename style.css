@@ -79,23 +79,59 @@
 
   }
 
+.laptop{
+	position:absolute;
+	max-width:6.5%;
+	transform: translate(-300%, 35%);
+	z-index:2;
+}
+
+  .hover-1:hover .laptop-hover{
+	opacity:1;
+
+}
+
+  .laptop-hover{
+    position:absolute;
+	max-width:6.5%;
+	transform: translate(-300%, 35%);
+	opacity:0;
+	z-index:1;
+
+}
+
 .lotus{
 	position:absolute;
 	max-width:8%;
 	transform: translate(20%, 180%);
+	z-index:1;
+}
+.zzz{
+	position:absolute;
+	max-width:8%;
+	transform: translate(20%, 180%);
+	z-index:1;
+}
+.hover-2:hover .lotus-hover{
+	opacity:1;
+}
+
+.hover-2:hover .lotus{
+	opacity: 0;
+}
+
+.lotus-hover{
+	position:absolute;
+	max-width:8%;
+	transform: translate(20%, 180%);
+	opacity:0;
+	z-index:2;
 }
 
 .poster{
 	position:absolute;
 	max-width:8%;
 	transform: translate(20%, -100%);
-}
-
-
-.laptop{
-	position:absolute;
-	max-width:6.5%;
-	transform: translate(-300%, 35%);
 }
 
 /*PORTFOLIO CSS*/
