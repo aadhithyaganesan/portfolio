@@ -1,7 +1,9 @@
- body{
-	/*
-	background-color: #FFDCA7;*/
-	overflow: hidden;
+footer{
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-weight: 550;
+	font-size:small;
+	margin:1%;
  }
 
  .noscriptmsg{
