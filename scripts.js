@@ -92,3 +92,32 @@ window.addEventListener('load', function() {
     var container = document.getElementById("about");
     container.style.display = "none";
   }
+
+// Function to detect mobile devices
+function isMobileDevice() {
+  return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+}
+
+// Function to generate the iframe code with modified src attribute
+function generateGoogleSlidesEmbed() {
+  var container = document.getElementById('slide');
+  var isMobile = isMobileDevice();
+  var iframe = document.createElement('iframe');
+  iframe.setAttribute('frameborder', '0');
+  iframe.setAttribute('width', '940');
+  iframe.setAttribute('height','569');
+  iframe.setAttribute('allowfullscreen','true');
+  iframe.setAttribute('mozallowfullscreen','true');
+  iframe.setAttribute('webkitallowfullscreen','true');
+
+
+  var iframeElement = document.getElementById('g-slide');
+  var existingSrc = iframeElement.src;
+  var newSrc = isMobile ? existingSrc + '&amp;rm=minimal' : existingSrc;
+
+  iframe.src = newSrc;
+  container.appendChild(iframe);
+}
+
+// Call the function to generate the Google Slides embed based on the device type
+generateGoogleSlidesEmbed();
