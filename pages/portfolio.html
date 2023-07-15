@@ -6,7 +6,7 @@
   <link rel="stylesheet" media="screen and (max-width: 1000px)" type="text/css" href="../style-alt.css">
 
   <title>Aadhithya Ganesan | Portfolio</title>
-    <link rel="icon" href="../icon_1.png" type="image/x-icon">
+    <link rel="icon" href="../icon.png" type="image/x-icon">
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -38,7 +38,8 @@ media="print" onload="this.media='all'" />
       <div class="text-div">UX Design</div>
         <button class="close-button" onclick="closeUX()">x</button>
     </div>
-    <div class="video-list">
+    <div class="scrollable-div">
+      <div class="video-list">
         <div class="video-item">
           <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRTPT8OZfg39uo-chIOnsHX_GRUqTp24qr1ksl1AIERbj22s4x82uBt2loUA_ZfSF5imZWxLjU8OhVC/embed?start=false&loop=true&delayms=60000" frameborder="0" width="940" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         </div>
@@ -51,8 +52,10 @@ media="print" onload="this.media='all'" />
         <div class="video-item">
           <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRUzZ9B2Zqg4cJmMrQQ15gk-YPQE6tOU-9QI94NjU_qcWRZkGaZesPdPMfsGgQNpgsZEZZ-jS0wFMWs/embed?start=false&loop=true&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         </div>
+      <!-- Add more video items as needed -->
       </div>
     </div>
+  </div>
 
   <div id="edit" class="collapse" style="display:none">
     <div class="header">
@@ -145,19 +148,20 @@ media="print" onload="this.media='all'" />
       <span>UX Design</span>
     </div>
     <div>
-      <img src="../images/edit.png" alt="Video Editing" onclick="openEdit()">
+      <img src="../images/edit.png" alt="Edit Image" onclick="openEdit()">
       <span>Video Editing</span>
     </div>
     <div>
-        <img src="../images/film.png" alt="Photography" onclick="window.open('https://www.flickr.com/gp/198545157@N07/3j1408kQ14')">
+        <img src="../images/film.png" alt="Film Image" onclick="window.open('https://flic.kr/s/aHBqjAHSeW')">
       <span>Photography</span>
     </div>
     <div>
-      <img src="../images/about.png" alt="About Me" onclick="openAbout()">
+      <img src="../images/about.png" alt="About Image" onclick="openAbout()">
       <span>About Me</span>
     </div>
-    <div>
-      <img src="../images/back.png" alt="Return to homepage" style="margin:auto; max-width:30%; padding-top: 8%;" onclick="window.open('https://aadhithyaganesan.com/homepage.html','_self')">
+    <div><a href="../homepage.html">
+      <img src="../images/back.png" alt="About Image" style="margin:auto; max-width:30%; padding-top: 8%;">
+    </a>
       <span>Go Back</span>
     </div>
   </div>
