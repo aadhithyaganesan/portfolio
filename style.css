@@ -114,6 +114,13 @@ footer{
 	transform: translate(20%, 180%);
 	z-index:1;
 }
+.lotus_awake{
+	position:absolute;
+	max-width: 9%;
+	transform: translate(15%, -5%);
+	z-index:1;
+}
+
 .hover-2:hover .lotus-hover{
 	opacity:1;
 }
@@ -126,6 +133,23 @@ footer{
 	position:absolute;
 	max-width:8%;
 	transform: translate(20%, 180%);
+	opacity:0;
+	z-index:2;
+}
+
+/*Lotus hover for homepage*/
+.hover-3:hover .awake-hover{
+	opacity:1;
+}
+
+.hover-2:hover .lotus_awake{
+	opacity: 0;
+}
+
+.awake-hover{
+	position:absolute;
+	max-width: 9%;
+	transform: translate(15%, -5%);
 	opacity:0;
 	z-index:2;
 }
