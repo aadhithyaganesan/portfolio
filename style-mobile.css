@@ -117,7 +117,7 @@ footer{
 .lotus_awake{
 	position:absolute;
 	max-width: 16%;
-	transform: translate(40%, 0%);
+	transform: translate(30%, 0%);
 	z-index:1;
 }
 
@@ -149,7 +149,7 @@ footer{
 .awake-hover{
 	position:absolute;
 	max-width: 16%;
-	transform: translate(40%, 0%);
+	transform: translate(30%, 0%);
 	opacity:0;
 	z-index:2;
 }
